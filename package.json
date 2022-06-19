@@ -1,4 +1,5 @@
 {
+  "homepage": "https://xioperez01.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -22,6 +23,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,6 +47,8 @@
     "@typescript-eslint/parser": "^5.28.0",
     "eslint": "^8.18.0",
     "eslint-import-resolver-typescript": "^2.7.1",
-    "eslint-plugin-react": "^7.30.0"
+    "eslint-plugin-react": "^7.30.0",
+    "gh-pages": "^4.0.0"
   }
 }
+
