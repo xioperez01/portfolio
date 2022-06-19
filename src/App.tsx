@@ -20,7 +20,7 @@ export const App = (): JSX.Element => (
           <Text>
             Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
           </Text>
-          <Text>Testin actions</Text>
+          <Text>Testin actions on dev</Text>
         </VStack>
       </Grid>
     </Box>
