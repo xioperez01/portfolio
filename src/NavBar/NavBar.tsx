@@ -17,6 +17,7 @@ import { HiOutlineMenu, HiX } from "react-icons/hi";
 
 export const NavBar = (): JSX.Element => {
   const { t, i18n } = useTranslation();
+
   const { isOpen, onToggle } = useDisclosure();
   const isMobileBreakpoint = useBreakpointValue({ base: true, md: false });
 
