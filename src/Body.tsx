@@ -3,6 +3,7 @@ import { HomeView } from "./homeSection/HomeWiew";
 import { NavBar } from "./NavBar/NavBar";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { AboutView } from "./aboutSection/AboutView";
+import { WorksView } from "./worksSection/WorksView";
 
 export const Body = (): JSX.Element => {
   return (
@@ -24,6 +25,10 @@ export const Body = (): JSX.Element => {
 
           <Route exact path="/portfolio/about">
             <AboutView />
+          </Route>
+
+          <Route exact path="/portfolio/works">
+            <WorksView />
           </Route>
         </Switch>
       </Box>

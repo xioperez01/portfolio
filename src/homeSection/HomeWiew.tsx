@@ -1,4 +1,11 @@
-import { Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import {
+  Button,
+  Flex,
+  Heading,
+  Image,
+  Text,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 import image from "../images/Profile_bg_transparent.png";
 
@@ -17,12 +24,14 @@ export const HomeView = (): JSX.Element => {
     >
       <Flex direction="column" alignItems="center">
         <Heading fontSize={{ base: "lg", md: "3vw", "2xl": "6xl" }}>
-          {`Welcome! I'm Agie Perez`}
+          {t("home_section_title")}
         </Heading>
-        <Text
-          fontSize={{ base: "md", md: "2vw", "2xl": "4xl" }}
-        >{`<Front-End Developer />`}</Text>
-        <Button mt={8}>{t("contact")}</Button>
+        <Text fontSize={{ base: "md", md: "2vw", "2xl": "4xl" }}>{`<${t(
+          "home_section_subtitle"
+        )} />`}</Text>
+        <Button colorScheme={useColorModeValue("primary", "blackAlpha")} mt={8}>
+          {t("contact")}
+        </Button>
       </Flex>
       <Image
         rounded="20%"
