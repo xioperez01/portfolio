@@ -16,18 +16,18 @@ export const Body = (): JSX.Element => {
         color={useColorModeValue("white", "primary.500")}
       >
         <Switch>
-          <Redirect from="/" to="/portfolio/home" exact />
-          <Redirect from="/portfolio" to="/portfolio/home" exact />
+          <Redirect from="/" to="/home" exact />
+          <Redirect from="/portfolio" to="/home" exact />
 
-          <Route exact path="/portfolio/home">
+          <Route exact path="/home">
             <HomeView />
           </Route>
 
-          <Route exact path="/portfolio/about">
+          <Route exact path="/about">
             <AboutView />
           </Route>
 
-          <Route exact path="/portfolio/works">
+          <Route exact path="/works">
             <WorksView />
           </Route>
         </Switch>
