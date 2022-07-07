@@ -5,7 +5,7 @@ const dictionary: Record<string, Record<string, string>> = {
   about: { en: "About", es: "Sobre mí" },
   works: { en: "Works", es: "Portafolio" },
   contact: { en: "Contact me", es: "Contáctame" },
-  lang: { en: "Lang", es: "Idioma" },
+  lang: { en: "ES", es: "EN" },
 
   // Home Section
   home_section_title: {
@@ -21,8 +21,8 @@ const dictionary: Record<string, Record<string, string>> = {
 
   who_i_am: { en: "Who is this girl?", es: "¿Quien soy?" },
   who_i_am_description: {
-    en: "I am front -end developer with two years of experience. I like challenges. I have the facility to adapt to new challenges and complex situations, always providing quick, practical and creative solutions. I am communicative, creative, persevering and with a great capacity for self-learning and teamwork.",
-    es: "Soy desarrolladora front - end con dos años de experiencia. Me gustan los retos. Tengo facilidad para adaptarme a nuevos desafíos y situaciones complejas, aportando siempre soluciones rápidas, prácticas y creativas. Soy comunicativa, creativa, perseverante y con gran capacidad de autoaprendizaje y trabajo en equipo.",
+    en: "I am front-end developer with two years of experience. I like challenges. I have the facility to adapt to new challenges and complex situations, always providing quick, practical and creative solutions. I am communicative, creative, persevering and with a great capacity for self-learning and teamwork.",
+    es: "Soy desarrolladora front-end con dos años de experiencia. Me gustan los retos. Tengo facilidad para adaptarme a nuevos desafíos y situaciones complejas, aportando siempre soluciones rápidas, prácticas y creativas. Soy comunicativa, creativa, perseverante y con gran capacidad de autoaprendizaje y trabajo en equipo.",
   },
 
   skills: { en: "Skills", es: "Habilidades" },

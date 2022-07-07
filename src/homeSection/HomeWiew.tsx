@@ -26,9 +26,9 @@ export const HomeView = (): JSX.Element => {
         <Heading fontSize={{ base: "lg", md: "3vw", "2xl": "6xl" }}>
           {t("home_section_title")}
         </Heading>
-        <Text fontSize={{ base: "md", md: "2vw", "2xl": "4xl" }}>{`<${t(
-          "home_section_subtitle"
-        )} />`}</Text>
+        <Text fontSize={{ base: "md", md: "2vw", "2xl": "4xl" }}>
+          {`<${t("home_section_subtitle")} />`}
+        </Text>
         <Button colorScheme={useColorModeValue("primary", "blackAlpha")} mt={8}>
           {t("contact")}
         </Button>
