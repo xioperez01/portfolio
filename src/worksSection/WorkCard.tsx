@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
-import { Box, Heading, Image, Text, useColorModeValue } from "@chakra-ui/react";
-import { useTranslation } from "react-i18next";
+import { Box, Heading, Image, useColorModeValue } from "@chakra-ui/react";
+//import { useTranslation } from "react-i18next";
 import "./helper.css";
 
 export interface WorkType {
@@ -16,9 +16,9 @@ interface WorkCardProps {
 }
 
 export const WorkCard = ({ work }: WorkCardProps): JSX.Element => {
-  const { t } = useTranslation();
+  //const { t } = useTranslation();
 
-  const { name, image, description, ghLink, deployLink } = work;
+  const { name, image /*description, ghLink, deployLink*/ } = work;
 
   const handleDisplay = (): void => {
     const element = document.getElementById(`box-${name}`);
